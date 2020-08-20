@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D7F879E324D16EF400B19A07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F879E224D16EF400B19A07 /* main.m */; };
-		D7F879EB24D16F2A00B19A07 /* tanh_adam.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D7F879EA24D16F2A00B19A07 /* tanh_adam.mlmodel */; };
+		D7F879F124D1943800B19A07 /* tanh_adam.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D7F879F324D1943800B19A07 /* tanh_adam.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		D7F879DF24D16EF400B19A07 /* testCoreML */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testCoreML; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F879E224D16EF400B19A07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D7F879EA24D16F2A00B19A07 /* tanh_adam.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = tanh_adam.mlmodel; sourceTree = "<group>"; };
+		D7F879F224D1943800B19A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Base; path = Base.lproj/tanh_adam.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 		D7F879E124D16EF400B19A07 /* testCoreML */ = {
 			isa = PBXGroup;
 			children = (
-				D7F879EA24D16F2A00B19A07 /* tanh_adam.mlmodel */,
+				D7F879F324D1943800B19A07 /* tanh_adam.mlmodel */,
 				D7F879E224D16EF400B19A07 /* main.m */,
 			);
 			path = testCoreML;
@@ -122,12 +122,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7F879EB24D16F2A00B19A07 /* tanh_adam.mlmodel in Sources */,
+				D7F879F124D1943800B19A07 /* tanh_adam.mlmodel in Sources */,
 				D7F879E324D16EF400B19A07 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7F879F324D1943800B19A07 /* tanh_adam.mlmodel */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F879F224D1943800B19A07 /* Base */,
+			);
+			name = tanh_adam.mlmodel;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D7F879E424D16EF400B19A07 /* Debug */ = {
